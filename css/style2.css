@@ -1,0 +1,132 @@
+
+.bg-block {
+    background: #fafafb;
+}
+
+input[type="text"], select, input[type="number"] {
+    outline: none;
+    width: 100%;
+    height: 35px;
+    background: #ffffff;
+    border: 2px solid #dcd8e1;
+    border-radius: 10px;
+}
+
+input[type="number"] {
+    text-align: center;
+    max-width: 20%;
+    min-width: 3.5rem;
+}
+
+.input-block span, .input-block {
+    margin-bottom: 0.8rem;
+}
+
+.input-container {
+    padding: 1rem;
+}
+
+.info-text {
+    margin: 0 1rem;
+    color: #afa4b8;
+    font-size: 0.7rem;
+}
+
+.main-block {
+    margin: 0 1rem;
+    padding: 2rem;
+    height: 100%;
+}
+
+.add-icon {
+    background: #f3f3f5;
+    color: #c9b8cc;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 0.3rem;
+    margin-right: 1rem
+}
+
+.add-edu {
+    display: flex;
+    align-items: center;
+    border-top: 5px solid #f5f4f6;
+    margin: 0 5%;
+    padding: 1rem 0;
+}
+
+.btn-primary, .btn-secondary {
+    cursor: pointer;
+    border: none;
+    margin: 0 1rem;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.btn {
+    margin-top: 20%;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background: #5900b2;
+}
+
+.btn-primary:hover {
+    background: #7800c1;
+}
+
+.btn-primary:focus, .btn-primary:active {
+    outline: none;
+    background: #47008e;
+    box-shadow: inset 0px 3px 3px rgba(0,0,0,0.5);
+}
+
+.btn-secondary {
+    color: #000000;
+    background: #eee3f8;
+}
+
+.nav-link {
+    height: 100%;
+}
+
+.nav-block a {
+    font-size: 0.9rem;
+    color: #a6a9b3;
+    display: block;
+    padding: 1rem;
+    border-left: 5px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.nav-block a:hover {
+    color: #090011;
+    border-left: 5px solid #7800c1;
+}
+
+.nav-block a:nth-child(2) {
+    color: #090011;
+    border-left: 5px solid #7800c1;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    main {
+        flex-direction: column;
+    }
+    .nav-block {
+        order: -1;
+        margin-left: 1rem;
+    }
+
+    .main-block {
+        margin: 0 0 1rem 1rem;
+    }
+}

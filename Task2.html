@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/flex-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Олимп</title>
+</head>
+<body>
+<header>
+    <div class="offset-2 header">
+        <h1>ОЛИМП</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+        <div class="header-profile">
+            <img src="img/profile.png" alt="">
+            <h3>Имя пользователя</h3>
+            <span class="material-icons">expand_more</span>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <aside class="aside-content col-2 bg-block">ASIDE</aside>
+    <main class="col-10 col-sm-12">
+        <div class="col-9 col-md-12 col-sm-12">
+            <div class="main-block bg-block">
+                <div class="flex-row">
+                    <div class="col-6 input-container">
+                        <div class="flex-column input-block">
+                            <span>Уровень:</span>
+                            <select id="level">
+                                <option value="1">Бакалавр</option>
+                                <option value="2">Специалист</option>
+                                <option value="3">Магистр</option>
+                            </select>
+                        </div>
+                        <div class="flex-column input-block">
+                            <span>Учебное заведенине:</span>
+                            <input class="bg-input" type="text" placeholder="Название или аббревиатура">
+                        </div>
+                        <div class="flex-column input-block">
+                            <span>Факультет:</span>
+                            <input class="bg-input" type="text">
+                        </div>
+                        <div class="flex-column input-block">
+                            <span>Специализация:</span>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="col-6 input-container">
+                        <div class="flex-column input-block">
+                            <span>Год окончания:</span>
+                            <div class="flex-row">
+                                <input type="number">
+                                <span class="info-text">Если вы учетесь сейчас, укажите предпологаемый год окончания</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-edu">
+                    <span class="material-icons add-icon">add</span>
+                    <span>Добавить еще одно образование</span>
+                </div>
+                <div class="btn">
+                    <input class="btn-primary" type="submit" value="Сохранить">
+                    <input class="btn-secondary" type="reset" value="Отмена">
+                </div>
+            </div>
+        </div>
+        <div class="nav-block col-3 col-md-12 col-sm-12">
+            <div class="nav-link bg-block">
+                <nav class="flex-column">
+                    <a href="#">Личная информация</a>
+                    <a href="#">Основное образование</a>
+                    <a href="#">Дополнительное образование</a>
+                    <a href="#">Ключевые навыки</a>
+                    <a href="#">Профессиональные навыки</a>
+                    <a href="#">Обо мне</a>
+                </nav>
+            </div>
+        </div>
+    </main>
+</div>
+<footer>
+    FOOTER
+</footer>
+</body>
+</html>
